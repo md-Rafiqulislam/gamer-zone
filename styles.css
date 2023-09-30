@@ -4,15 +4,15 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
-}
-
-body {
-    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .orange-text {
     color: orange;
+}
+
+.colored-text {
+    color: #500411b4;
 }
 
 li {
@@ -28,6 +28,22 @@ a {
     height: 1.5rem;
 }
 
+
+.half-width {
+    width: 50%;
+}
+
+.banner-pic-1, .banner-pic-2, .banner-pic-3 {
+    width: 250px;
+    height: 200px;
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
 
 /* utilities styles end*/
 
@@ -88,3 +104,84 @@ a {
 .icon-pos {
     margin-left: 12px;
 }
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width:  90%;
+    height: 90vh;
+}
+
+.banner-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    margin-left: 6rem;
+    background-color: #f4f4f7;
+}
+
+.banner-title-1 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.banner-title-2 {
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+}
+
+.banner-list {
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.banner-p {
+    font-size: 1.5rem;
+    margin-top: -10px;
+    text-align: left;
+    margin-left: 0.3rem;
+}
+
+.text-icon {
+    width: 1rem;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.banner-1 {
+    background-color: orangered;
+    color: white;
+}
+
+.banner-2 {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.banner-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.banner-pic {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.banner-pic-1 {
+    grid-column: span 2;
+}
+
+
